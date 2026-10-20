@@ -412,7 +412,7 @@ const handleDemoContinue = () => {
 >
   <div className="mx-auto max-w-3xl text-center">
   <p className="text-2xl font-semibold tracking-tight text-[#242522] sm:text-3xl">
-  How ARIA works
+  How MyTrueDay works
 </p>
 
   <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#242522] sm:text-4xl">
@@ -488,240 +488,178 @@ const handleDemoContinue = () => {
     </div>
   </div>
 </section>
-{/* What ARIA stands for */}
-<section className="border-y border-[#DDD9D1] bg-[#F8F6F1]">
-  <div className="mx-auto max-w-6xl px-6 py-24 sm:px-8 sm:py-28">
-
-    <div className="text-center">
-      <h2 className="text-3xl font-semibold tracking-tight text-[#242522] sm:text-4xl">
-        What ARIA stands for
-      </h2>
-    </div>
-
-    <div className="mx-auto mt-16 grid max-w-6xl gap-5 sm:grid-cols-4">
-
-      {/* Awareness */}
-      <div className="group border border-[#D9D4CC] bg-white p-7 transition-all duration-200 hover:-translate-y-1 hover:border-[#C9C2B8]">
-        <div className="text-7xl font-semibold leading-none tracking-tight text-[#D96F4A]">
-          A
-        </div>
-
-        <div className="mt-10">
-          <h3 className="text-xl font-semibold text-[#242522]">
-            Awareness
-          </h3>
-
-          <p className="mt-3 text-sm leading-6 text-[#6F6A63]">
-            Notice how you're doing before trying to change anything.
-          </p>
-        </div>
-      </div>
-
-      {/* Reflection */}
-      <div className="group border border-[#D9D4CC] bg-white p-7 transition-all duration-200 hover:-translate-y-1 hover:border-[#C9C2B8]">
-        <div className="text-7xl font-semibold leading-none tracking-tight text-[#D96F4A]">
-          R
-        </div>
-
-        <div className="mt-10">
-          <h3 className="text-xl font-semibold text-[#242522]">
-            Reflection
-          </h3>
-
-          <p className="mt-3 text-sm leading-6 text-[#6F6A63]">
-            Give your thoughts some space and put them into words.
-          </p>
-        </div>
-      </div>
-
-      {/* Insights */}
-      <div className="group border border-[#D9D4CC] bg-white p-7 transition-all duration-200 hover:-translate-y-1 hover:border-[#C9C2B8]">
-        <div className="text-7xl font-semibold leading-none tracking-tight text-[#D96F4A]">
-          I
-        </div>
-
-        <div className="mt-10">
-          <h3 className="text-xl font-semibold text-[#242522]">
-            Insights
-          </h3>
-
-          <p className="mt-3 text-sm leading-6 text-[#6F6A63]">
-            Look back and notice patterns that might be easy to miss day to day.
-          </p>
-        </div>
-      </div>
-
-      {/* Action */}
-      <div className="group border border-[#D9D4CC] bg-white p-7 transition-all duration-200 hover:-translate-y-1 hover:border-[#C9C2B8]">
-        <div className="text-7xl font-semibold leading-none tracking-tight text-[#D96F4A]">
-          A
-        </div>
-
-        <div className="mt-10">
-          <h3 className="text-xl font-semibold text-[#242522]">
-            Action
-          </h3>
-
-          <p className="mt-3 text-sm leading-6 text-[#6F6A63]">
-            Use what you've noticed to choose one small next step.
-          </p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
         {/* Features */}
-        <section className="border-y border-[#E7E4EE] bg-white">
-
-          <div className="mx-auto max-w-6xl px-6 py-24 sm:px-8">
-
-            <div className="max-w-2xl">
-              <p className="text-sm font-medium text-[#66547F]">
-                Your space
-              </p>
-
-              <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-                Built around real life.
+        <section
+          id="features"
+          className="scroll-mt-24 bg-[#F3EEE5] px-6 py-20 sm:py-24"
+        >
+          <div className="mx-auto max-w-6xl">
+            {/* Heading */}
+            <div className="text-center">
+              <h2 className="text-3xl font-semibold tracking-tight text-[#352E29] sm:text-4xl">
+                Build Your Space Around Real Life
               </h2>
+              <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-[#756C60]">
+                Some days you want to write it all down. Other days, you just
+                need a moment to check in. There's room for both.
+              </p>
             </div>
 
-            <div className="mt-14 grid gap-x-16 gap-y-12 md:grid-cols-2">
+            {/* Divider */}
+            <div className="mx-auto my-10 h-px max-w-6xl bg-[#D9D0C3] sm:my-12" />
 
-              <div>
-                <h3 className="text-lg font-semibold">
-                  Daily check-ins
+            {/* Feature cards */}
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+              <article className="flex flex-col rounded-2xl border border-[#E2D9CD] bg-[#FBF9F5] p-6 transition duration-200 hover:-translate-y-1 hover:border-[#C8B9A5] hover:shadow-sm">
+                <span className="text-sm font-medium text-[#B87559]">01</span>
+                <h3 className="mt-5 text-lg font-semibold text-[#352E29]">
+                  Check in with yourself
                 </h3>
-
-                <p className="mt-2 max-w-md text-sm leading-6 text-[#777282]">
-                  A few thoughtful questions about how you're doing today.
-                  Nothing lengthy unless you want it to be.
+                <p className="mt-3 text-sm leading-7 text-[#756C60]">
+                  How are you feeling today? Take a minute to check in with
+                  your mood, energy, and sleep.
                 </p>
-              </div>
+              </article>
 
-              <div>
-                <h3 className="text-lg font-semibold">
-                  Private journaling
+              <article className="flex flex-col rounded-2xl border border-[#E2D9CD] bg-[#FBF9F5] p-6 transition duration-200 hover:-translate-y-1 hover:border-[#C8B9A5] hover:shadow-sm">
+                <span className="text-sm font-medium text-[#B87559]">02</span>
+                <h3 className="mt-5 text-lg font-semibold text-[#352E29]">
+                  Get it off your mind
                 </h3>
-
-                <p className="mt-2 max-w-md text-sm leading-6 text-[#777282]">
-                  A place to write freely and come back to your thoughts when
-                  you need them.
+                <p className="mt-3 text-sm leading-7 text-[#756C60]">
+                  Write about what's bothering you, what made you smile, or
+                  anything you don't feel like saying out loud.
                 </p>
-              </div>
+              </article>
 
-              <div>
-                <h3 className="text-lg font-semibold">
-                  Personal patterns
+              <article className="flex flex-col rounded-2xl border border-[#E2D9CD] bg-[#FBF9F5] p-6 transition duration-200 hover:-translate-y-1 hover:border-[#C8B9A5] hover:shadow-sm">
+                <span className="text-sm font-medium text-[#B87559]">03</span>
+                <h3 className="mt-5 text-lg font-semibold text-[#352E29]">
+                  Notice what changes
                 </h3>
-
-                <p className="mt-2 max-w-md text-sm leading-6 text-[#777282]">
-                  See how things like sleep, energy, mood, and everyday stress
-                  change together over time.
+                <p className="mt-3 text-sm leading-7 text-[#756C60]">
+                  Look back at your days and see what you've been feeling,
+                  what keeps coming up, and what's getting better.
                 </p>
-              </div>
+              </article>
 
-              <div>
-                <h3 className="text-lg font-semibold">
-                  Small things that help
+              <article className="flex flex-col rounded-2xl border border-[#E2D9CD] bg-[#FBF9F5] p-6 transition duration-200 hover:-translate-y-1 hover:border-[#C8B9A5] hover:shadow-sm">
+                <span className="text-sm font-medium text-[#B87559]">04</span>
+                <h3 className="mt-5 text-lg font-semibold text-[#352E29]">
+                  Find a little relief
                 </h3>
-
-                <p className="mt-2 max-w-md text-sm leading-6 text-[#777282]">
-                  Find simple activities and resources that fit how you're
-                  feeling instead of adding another thing to your to-do list.
+                <p className="mt-3 text-sm leading-7 text-[#756C60]">
+                  Try a short breathing exercise, take a proper break, or
+                  find a small thing that helps you reset.
                 </p>
-              </div>
-
+              </article>
             </div>
-
           </div>
-
         </section>
-
         {/* Privacy */}
         <section
           id="privacy"
-          className="mx-auto max-w-6xl scroll-mt-20 px-6 py-24 sm:px-8"
+          className="scroll-mt-24 bg-[#FBF9F5]"
         >
+          <div className="mx-auto max-w-6xl px-6 py-20 sm:px-8 sm:py-24">
+            <div className="grid gap-10 md:grid-cols-[0.8fr_1.2fr] md:gap-20">
+              <div>
+                <p className="text-sm font-semibold uppercase tracking-[0.12em] text-[#9E6048]">
+                  Personal means personal
+                </p>
 
-          <div className="max-w-2xl">
+                <h2 className="mt-3 text-3xl font-semibold leading-tight tracking-tight text-[#352E29] sm:text-4xl">
+                  Some things should stay yours.
+                </h2>
+              </div>
 
-            <p className="text-sm font-medium text-[#66547F]">
-              Privacy
-            </p>
+              <div className="max-w-xl">
+                <p className="text-base leading-8 text-[#756C60]">
+                  Your thoughts and wellbeing information are personal.
+                  MyTrueDay is being built with a focus on collecting only
+                  what is needed, explaining how information is used, and
+                  giving you meaningful control over your data.
+                </p>
 
-            <h2 className="mt-3 text-3xl font-semibold tracking-tight sm:text-4xl">
-              Some things should stay yours.
-            </h2>
+                
 
-            <p className="mt-5 text-base leading-7 text-[#777282]">
-              Your wellbeing information is personal. ARIA is being designed
-              around that principle — collect only what is useful, explain what
-              is being stored, and give you control over your information.
-            </p>
-
-            <Link
-              to="/privacy"
-              className="mt-6 inline-flex text-sm font-medium text-[#66547F] hover:underline"
-            >
-              Learn about privacy
-            </Link>
-
+                <Link
+                  to="/privacy"
+                  className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[#68704B] transition hover:text-[#555D3D] hover:underline"
+                >
+                  Learn about privacy
+                  <span aria-hidden="true">→</span>
+                </Link>
+              </div>
+            </div>
           </div>
-
         </section>
 
         {/* Closing CTA */}
-        <section className="border-t border-[#E7E4EE] bg-[#F2EEF6]">
-
-          <div className="mx-auto max-w-6xl px-6 py-24 sm:px-8">
-
+        <section className="border-y border-[#D9D0C3] bg-[#EDEBDD]">
+          <div className="mx-auto max-w-6xl px-6 py-20 sm:px-8 sm:py-24">
             <div className="max-w-2xl">
+              <p className="text-sm font-semibold uppercase tracking-[0.12em] text-[#68704B]">
+                Start where you are
+              </p>
 
-              <h2 className="text-3xl font-semibold tracking-tight sm:text-4xl">
+              <h2 className="mt-3 text-3xl font-semibold leading-tight tracking-tight text-[#352E29] sm:text-4xl">
                 You don't have to figure everything out today.
               </h2>
 
-              <p className="mt-4 text-base leading-7 text-[#777282]">
-                Start with a check-in. See where it takes you.
+              <p className="mt-4 max-w-lg text-base leading-7 text-[#756C60]">
+                Start with a small check-in. Take things one day at a time
+                and make this space your own.
               </p>
 
               <Link
                 to="/register"
-                className="mt-7 inline-flex rounded-lg bg-[#66547F] px-6 py-3.5 text-sm font-medium text-white transition hover:bg-[#57456E]"
+                className="mt-7 inline-flex items-center justify-center rounded-lg bg-[#68704B] px-6 py-3.5 text-sm font-medium text-white transition hover:bg-[#555D3D] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#68704B]"
               >
                 Create your space
+                <span className="ml-2" aria-hidden="true">→</span>
               </Link>
-
             </div>
-
           </div>
-
         </section>
-
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-[#E7E4EE] bg-[#FAF9FC]">
+      <footer className="border-t border-[#E5DDD0] bg-[#F3EEE5]">
+        <div className="mx-auto flex max-w-6xl flex-col gap-5 px-6 py-7 sm:flex-row sm:items-center sm:justify-between sm:px-8">
+          <Link
+            to="/"
+            className="inline-flex w-fit items-center"
+            aria-label="MyTrueDay home"
+          >
+            <img
+              src="/mytrueday-logo.png"
+              alt="MyTrueDay"
+              className="h-auto w-36 object-contain"
+            />
+          </Link>
 
-        <div className="mx-auto flex max-w-6xl flex-col gap-3 px-6 py-8 text-xs text-[#8B8693] sm:flex-row sm:items-center sm:justify-between sm:px-8">
+          <p className="max-w-sm text-xs leading-5 text-[#756C60]">
+            A little space for everyday reflection. Take things at your own pace.
+          </p>
 
-          <p>ARIA · Everyday wellbeing</p>
-
-          <div className="flex gap-5">
-            <Link to="/privacy" className="hover:text-[#24212F]">
+          <div className="flex gap-5 text-sm text-[#51473E]">
+            <Link
+              to="/privacy"
+              className="transition hover:text-[#68704B]"
+            >
               Privacy
             </Link>
 
-            <Link to="/login" className="hover:text-[#24212F]">
+            <Link
+              to="/login"
+              className="transition hover:text-[#68704B]"
+            >
               Sign in
             </Link>
           </div>
-
         </div>
-
       </footer>
-
     </div>
   );
 }
